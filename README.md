@@ -1,4 +1,4 @@
-#Detalhes
+# Detalhes
 Um exemplo de blog desenvolvido em angular para treinar o uso do framework.
 
 # AngularBlog
