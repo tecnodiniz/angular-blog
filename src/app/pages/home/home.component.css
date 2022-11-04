@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container__article-main{
+  width: 45%;
+}
+.container__article-others{
+  width: 50%;
+}

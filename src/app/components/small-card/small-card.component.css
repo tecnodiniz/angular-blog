@@ -1,0 +1,18 @@
+.container__small-card{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  width: 100%;
+
+}
+.small-card__photo{
+  width: 350px;
+}
+.small-card__photo > img{
+  width: 100%;
+  
+}
+.small-card__title{
+  padding: 1rem;
+  text-align: center;
+}
