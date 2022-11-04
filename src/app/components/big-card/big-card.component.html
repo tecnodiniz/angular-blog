@@ -2,21 +2,20 @@
 
   <div class="big-card__photo">
     <img
-    src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png"
-    alt="content image">
+    [src]="bigCardImage"
+    [alt]="bigCardTitle">
 
   </div>
 
   <div class="big-card__title">
     <a href="#">
-      <h2>Lorem ipsum dolor sit</h2>
+      <h2>{{bigCardTitle}}</h2>
     </a>
 
   </div>
 
   <div class="big-card__description">
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis iste maxime! Magni corrupti dolor voluptate, repellat deserunt blanditiis alias nam quisquam architecto officiis, voluptatum corporis sit voluptates. Temporibus, esse?
-  </p>
+   <p>{{bigCardDesc}} </p>
   </div>
 
 </div>
