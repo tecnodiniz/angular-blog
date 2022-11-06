@@ -5,9 +5,14 @@
       <img [src]="cardImage" alt="">
     </div>
     <div class="small-card__title">
-      <h2>
-        {{cardTitle}}
-      </h2>
+      <a [routerLink]="['content',Id]">
+        <h2>
+          {{cardTitle}}
+        </h2>
+
+
+      </a>
+
 
     </div>
 

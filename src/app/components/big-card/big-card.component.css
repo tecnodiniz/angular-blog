@@ -19,9 +19,10 @@
   max-height: 18rem;
   min-width: 100%;
 }
-.big-card__description > p{
+.big-card__description > a, p{
   color:grey;
   margin-top: 1rem;
   letter-spacing: 0.1rem;
   line-height: 1.275rem;
+  text-decoration: none;
 }
