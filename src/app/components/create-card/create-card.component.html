@@ -1,0 +1,33 @@
+
+  <div class="create__card">
+    <legend>Crie seu post</legend>
+  <label for="title" >Titulo</label>
+
+  <input type="text" name="title"
+  placeholder="titulo"
+  [value]="title"
+  (input)="title = $any($event.target).value">
+
+  <label for="description">Descrição</label>
+  <input type="text"
+  name="description"
+  placeholder="descrição"
+  [value]="description"
+  (input)="description = $any($event.target).value">
+
+  <label for="img">Imagem</label>
+  <input type="text" placeholder="url da imagem" name="img"
+  placeholder="url da imagem"
+  [value]="imgUrl"
+  (input)="imgUrl = $any($event.target).value">
+
+
+  <button
+    (click)="salvar(title,description,imgUrl)"
+  >Postar</button>
+  <p></p>
+
+  </div>
+
+
+

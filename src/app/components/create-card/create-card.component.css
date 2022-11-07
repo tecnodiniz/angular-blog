@@ -1,0 +1,17 @@
+.create__card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+.create__card > legend {
+  text-align: center;
+}
+.create__card > button {
+  width: 100px;
+  background-color: blue;
+  align-self: center;
+
+}

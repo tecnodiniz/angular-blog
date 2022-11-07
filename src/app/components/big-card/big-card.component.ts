@@ -16,9 +16,6 @@ export class BigCardComponent implements OnInit {
   @Input()
   Id:number = 0;
 
-  saved:boolean = false;
-
-
   constructor() {
 
   }
@@ -41,7 +38,7 @@ export class BigCardComponent implements OnInit {
     }
 
     console.log(dataFake);
-    
+
 
 
 
